@@ -1,3 +1,8 @@
+body{
+    background-image: linear-gradient(to right top, #0dcfe5, #00d8df, #00e0d1, #00e7bc, #0deda2);
+    background-repeat: no-repeat;
+}
+
 .user-pic{
 height: 8rem;
 width: 8rem;
@@ -27,8 +32,9 @@ margin-right: 2rem;
 
 .user:hover{
     transform: scale(1.2);
-    background: rgb(126, 204, 235);
+    background:linear-gradient(to right top, #1aa4ae, #19b0bb, #16bcc9, #13c9d7, #0ed5e5)
 }
+
 
 .delete
 {
