@@ -10,6 +10,18 @@
 
 <body>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div>
+        <div class="form">
+            <div class="form-elements">
+                <input type="text" class="username" placeholder="Enter Username">
+                <input type="url" class="avatar" placeholder="Enter Profile pic URL">
+            </div>
+            <button class="submit" onclick="addUsertoApi()"><span>Add User</span></button>
+        </div>
+    </div>
     <section class="user-lists"></section>
     <script src=script.js></script>
 </body>
